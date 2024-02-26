@@ -5,7 +5,7 @@
    import google from '../assets/images/google.png'
 
    const { data } = defineProps(['data'])
-   const corr = true
+   const corr = false
    const excelTableRows= [
       {img: facebook , label: 'فيسبوك'},
       {img: amazon, label: 'أمازون'},
